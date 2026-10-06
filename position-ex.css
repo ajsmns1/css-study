@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fixed */
+.box {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+/* 카드 영역 */
+.contents {
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+  background-color: red;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.contents img {
+  width: 100%;
+  display: block;
+}
+.products {
+  position: absolute;
+  background-color: #ffffff90;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 30px;
+  padding: 20px;
+}
+.text1 {
+  color: red;
+}
+.text3 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.price {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.text4 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+.text5 {
+  color: red;
+  font-size: 16px;
+}

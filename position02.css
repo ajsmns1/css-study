@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  width: 500px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  display: block;
+}
+.desc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 45%;
+  text-align: end;
+  color: white;
+  background-color: #ffffff90;
+  padding: 20px;
+}
+.text1 {
+  color: lime;
+}
+.text3 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+}
+.won {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+}
+.text4 {
+  color: red;
+}
